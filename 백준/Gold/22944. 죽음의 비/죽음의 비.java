@@ -17,7 +17,7 @@ public class Main {
             return;
         }
 
-        if (depth == umbrellas.size() || dist >= ans) return;
+        if (step + dist >= ans || depth == umbrellas.size()) return;
 
         for (int i=0; i<umbrellas.size(); i++) {
             toUmbrella = Math.abs(point[0] - umbrellas.get(i)[0]) + Math.abs(point[1] - umbrellas.get(i)[1]);
