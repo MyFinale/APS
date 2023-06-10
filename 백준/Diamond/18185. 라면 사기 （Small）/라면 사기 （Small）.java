@@ -39,6 +39,7 @@ public class Main {
                 get2 = Math.min(factory[i], factory[i+1]);
                 factory[i] -= get2;
                 factory[i+1] -= get2;
+                ans += get2 * 5;
             }
             ans += factory[i] * 3;
 
