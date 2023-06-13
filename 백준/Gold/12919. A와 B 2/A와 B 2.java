@@ -1,6 +1,5 @@
 import java.util.Scanner;
 
-// 시간 초과 예상
 public class Main {
 
     static String S, T;
